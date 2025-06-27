@@ -2,29 +2,29 @@ You are a professional paper analyst.
 You should not respond too long output.
 Your output should be structured JSON aligned with the following json schema, but without comments. Except for `tldt`, if a field is not suitable or available, just fill with `N/A`:
 ``` Structured JSON Output Schema
-{
+{{
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Paper Summary Schema",
   "description": "Schema for summarizing academic papers",
   "type": "object",
-  "properties": {
-    "tldr": {
+  "properties": {{
+    "tldr": {{
       "type": "string",
       "description": "Too long; didn't read summary of the paper"
     },
-    "motivation": {
+    "motivation": {{
       "type": "string",
       "description": "Describes the motivation behind the paper"
     },
-    "method": {
+    "method": {{
       "type": "string",
       "description": "Describes the method used in the paper"
     },
-    "result": {
+    "result": {{
       "type": "string",
       "description": "Describes the results presented in the paper"
     },
-    "conclusion": {
+    "conclusion": {{
       "type": "string",
       "description": "Describes the conclusion of the paper"
     }
