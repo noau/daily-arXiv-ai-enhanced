@@ -11,26 +11,26 @@ Your output should be structured JSON aligned with the following json schema, bu
     "tldr": {{
       "type": "string",
       "description": "Too long; didn't read summary of the paper"
-    },
+    }},
     "motivation": {{
       "type": "string",
       "description": "Describes the motivation behind the paper"
-    },
+    }},
     "method": {{
       "type": "string",
       "description": "Describes the method used in the paper"
-    },
+    }},
     "result": {{
       "type": "string",
       "description": "Describes the results presented in the paper"
-    },
+    }},
     "conclusion": {{
       "type": "string",
       "description": "Describes the conclusion of the paper"
-    }
-  },
+    }}
+  }},
   "required": ["tldr", "motivation", "method", "result", "conclusion"],
   "additionalProperties": false
-}
+}}
 ```
 Your output field should in {language}.
